@@ -1,0 +1,57 @@
+header{
+	width:100%;
+	background-color:#00BFFF;
+	height:125px;
+	float:top;
+}
+nav{
+	
+	float:right;
+    width:80%;
+    height:60px;
+	background-color:#B0C4DE;
+	
+}
+aside{
+	float:left;
+    width:20%;
+    height:770px;
+	background-color:#1E90FF
+	
+}
+main{
+	
+    float:right;
+    width:80%;
+    height:710px;
+	background-color:#ADD8E6
+}
+
+@media screen and (max-width:480px){	
+header{
+	width:auto; 
+	float:none;
+    width:100%;
+    height:100px;
+}
+
+aside{
+	width:auto; 
+    float:none;
+    width:100%;
+    height:45px;
+}
+
+nav{
+	width:auto;
+	float:none;
+}
+
+main{
+	width:auto;
+	float:none;
+    clear:both;
+    width:100%;
+    height:470px;
+}
+}
